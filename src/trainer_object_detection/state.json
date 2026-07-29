@@ -1,0 +1,7 @@
+{
+  "dockerfile": "/tmp/tmp9f7l5ihz/recipe/Dockerfile",
+  "docker_context": "/tmp/tmp9f7l5ihz/recipe",
+  "digest": "984bad18",
+  "image_tag": "localhost:984bad18",
+  "image_exists": false
+}
