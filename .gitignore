@@ -22,7 +22,6 @@ _gsdata_/
 archive/
 build/
 dist/
-/docker/
-/run/
-/tools/
+/data/*/
+/run/*/
 /zoo/*/
