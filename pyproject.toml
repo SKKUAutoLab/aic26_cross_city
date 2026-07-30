@@ -42,10 +42,10 @@ dependencies    = [
 ]
 
 # [project.urls]
-# Homepage      = ""
-# Documentation = ""
-# Repository    = ""
-# Issues        = ""
+Homepage      = "https://github.com/longph3105/aic26_cross_city"
+Documentation = "https://github.com/longph3105/aic26_cross_city/docs"
+Repository    = "https://github.com/longph3105/aic26_cross_city.git"
+Issues        = "https://github.com/longph3105/aic26_cross_city/issues"
 
 # --- UV SPECIFIC ---
 [tool.uv]
@@ -61,13 +61,14 @@ mon = { workspace = true }
 [tool.poetry]
 package-mode = false                    # If you want to use Poetry only for dependency management but not for packaging.
 # packages = [
-    # { include = "edgecrafter", from = "src" }
+    # { include = "", from = "src" }
 # ]
 include  = []
 exclude  = []
 
 [tool.poetry.dependencies]
-mon = { path = "../../libs/mon", develop = true }
+mon = { path = "../../libs/mon", develop = true }  # Uncomment for local development
+# mon = { git = "https://github.com/longph3105/mon" }  # Uncomment for production use, install from GitHub
 
 [build-system]
 requires      = ["poetry-core>=2.3.2,<3.0.0"]
