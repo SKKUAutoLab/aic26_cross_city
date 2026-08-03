@@ -67,10 +67,10 @@
 
 ## 🎉 NEWS
 
-- [2026.08.02] 💽 Our data and pretrained weights are released!
-- [2026.08.01] 📄 Our paper is accepted at ECCVW.
+- [2026.08.03] 💽 Our data and pretrained weights are released!
+- [2026.08.02] 📄 Our paper is accepted at ECCVW.
 - [2026.07.29] 💻 Our code is released!
-- [2026.07.24] 📄 Our paper is under review at ECCVW.
+- [2026.07.24] 📄 Our paper is under review.
 
 
 <!-- MARK: Abstract -->
