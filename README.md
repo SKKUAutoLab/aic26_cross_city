@@ -96,20 +96,21 @@ limited GPU memory (16GB). Our optimized variants, RF-DETR-HR and RF-DETR-Graywo
 ## 🌍 Overview
 
 <div align="center">
-    <img src="data/figure1.png" style="width:100%; height:auto; display:block; border-radius:6px;">
+    <img src="data/figure1.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
+<br>
 
 Our approach addresses cross-city domain degradation through two core techniques:
 - **Class-Agnostic Pre-Training**: Collapsing semantic labels into a unified binary objectness task to decouple vehicle structural geometry from volatile category taxonomies across a 40K-image dataset.
 <div align="center">
-    <img src="data/figure3.png" style="width:90%; height:auto; display:block; border-radius:6px;">
+    <img src="data/figure3.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
 
 - **Grayworld Chromatic Neutralization**: Stripping sensor-dependent color shortcuts to force global attention heads to prioritize robust, domain-invariant shape priors.
 
 <div align="center">
-    <img src="data/figure2a.png" style="width:91%; height:auto; display:block; border-radius:6px;">
-    <img src="data/figure2b.png" style="width:90%; height:auto; display:block; border-radius:6px;">
+    <img src="data/figure2a.png" style="width:81%; height:auto; display:block; border-radius:6px;">
+    <img src="data/figure2b.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
 
 
