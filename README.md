@@ -115,6 +115,18 @@ Our approach addresses cross-city domain degradation through two core techniques
 </div>
 
 
+<!-- MARK: Experiments -->
+
+## 🔬 Experiments
+
+<details>
+  <summary>Click to expand!</summary>
+  <div align="center">
+    <img src="data/experiment.png" style="width:90%; height:auto; display:block; border-radius:6px;">
+  </div>
+</details>
+
+
 <!-- MARK: Install -->
 
 ## 📥 Install
