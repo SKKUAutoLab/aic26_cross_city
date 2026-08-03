@@ -105,6 +105,7 @@ Our approach addresses cross-city domain degradation through two core techniques
 <div align="center">
     <img src="data/figure3.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
+<br>
 
 - **Grayworld Chromatic Neutralization**: Stripping sensor-dependent color shortcuts to force global attention heads to prioritize robust, domain-invariant shape priors.
 
