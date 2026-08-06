@@ -77,17 +77,17 @@
 
 ## 📝 Abstract
 
-Real-world deployment of traffic surveillance systems is bottlenecked by geographic domain shift, in which models 
-trained in one city underperform when applied to an unseen target city. Conventional domain adaptation relies on 
-hyperparameter-sensitive architectures or direct profiling of target data. Both are fundamentally precluded in 
-privacy-conscious ecosystems that require completely blind training and evaluation loops. In this setting, we explore 
-the effects of pre-training and augmentation on addressing the domain shift problem. Specifically, we propose a new 
-modular training pipeline for object detection structured around two core orthogonal pillars: (1) a multi-dataset 
-pre-training strategy featuring a class-agnostic objectness distillation to decouple structural vehicle geometry from 
-semantic taxonomies, and (2) a domain-resilient augmentation stream featuring a novel Grayworld transformation that 
-forces global attention headers to strip volatile chromatic shortcuts in favor of robust shape priors. When evaluated 
-with the real-time transformer-based detector RF-DETR, our framework bridges cross-city distribution gaps while using 
-limited GPU memory (16GB). Our optimized variants, RF-DETR-HR and RF-DETR-Grayworld, deliver substantial empirical 
+Real-world deployment of traffic surveillance systems is bottlenecked by geographic domain shift, in which models
+trained in one city underperform when applied to an unseen target city. Conventional domain adaptation relies on
+hyperparameter-sensitive architectures or direct profiling of target data. Both are fundamentally precluded in
+privacy-conscious ecosystems that require completely blind training and evaluation loops. In this setting, we explore
+the effects of pre-training and augmentation on addressing the domain shift problem. Specifically, we propose a new
+modular training pipeline for object detection structured around two core orthogonal pillars: (1) a multi-dataset
+pre-training strategy featuring a class-agnostic objectness distillation to decouple structural vehicle geometry from
+semantic taxonomies, and (2) a domain-resilient augmentation stream featuring a novel Grayworld transformation that
+forces global attention headers to strip volatile chromatic shortcuts in favor of robust shape priors. When evaluated
+with the real-time transformer-based detector RF-DETR, our framework bridges cross-city distribution gaps while using
+limited GPU memory (16GB). Our optimized variants, RF-DETR-HR and RF-DETR-Grayworld, deliver substantial empirical
 +24.29 gains over the baseline, achieving 1st place (mAP 47.53) on the AI City Challenge Track 6 leaderboard.
 
 
@@ -96,22 +96,22 @@ limited GPU memory (16GB). Our optimized variants, RF-DETR-HR and RF-DETR-Graywo
 ## 🌍 Overview
 
 <div align="center">
-    <img src="data/figure1.png" style="width:80%; height:auto; display:block; border-radius:6px;">
+    <img src="assets/figure1.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
 <br>
 
 Our approach addresses cross-city domain degradation through two core techniques:
 - **Class-Agnostic Pre-Training**: Collapsing semantic labels into a unified binary objectness task to decouple vehicle structural geometry from volatile category taxonomies across a 40K-image dataset.
 <div align="center">
-    <img src="data/figure3.png" style="width:80%; height:auto; display:block; border-radius:6px;">
+    <img src="assets/figure3.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
 <br>
 
 - **Grayworld Chromatic Neutralization**: Stripping sensor-dependent color shortcuts to force global attention heads to prioritize robust, domain-invariant shape priors.
 
 <div align="center">
-    <img src="data/figure2a.png" style="width:81%; height:auto; display:block; border-radius:6px;">
-    <img src="data/figure2b.png" style="width:80%; height:auto; display:block; border-radius:6px;">
+    <img src="assets/figure2a.png" style="width:81%; height:auto; display:block; border-radius:6px;">
+    <img src="assets/figure2b.png" style="width:80%; height:auto; display:block; border-radius:6px;">
 </div>
 
 
@@ -122,7 +122,7 @@ Our approach addresses cross-city domain degradation through two core techniques
 <details>
   <summary>Click to expand!</summary>
   <div align="center">
-    <img src="data/experiment.png" style="width:90%; height:auto; display:block; border-radius:6px;">
+    <img src="assets/experiment.png" style="width:90%; height:auto; display:block; border-radius:6px;">
   </div>
 </details>
 
@@ -144,6 +144,7 @@ poetry install
 
   ```text
   aic26_cross_city/                     # Project root.
+  |__ assets/                           # Figures and illustrations.
   |__ data/                             # Custom pre-training datasets.
   |__ docker/                           # Docker files for experiments.
   |__ run/                              # Local training/evaluation artifacts.
@@ -172,7 +173,7 @@ We have prepared two [dockers](https://drive.google.com/drive/folders/1mZKpR_ERc
 - trainer-RFDETR2XLarge_40k.zip
 - trainer-RFDETR2XLarge_40k_1080.zip
 
-The provided docker only contains our best pretrained weights. 
+The provided docker only contains our best pretrained weights.
 If you want to try other weights, please copy it from the [model zoo](https://drive.google.com/drive/folders/1mZKpR_ERcPv7n8OewJLFK_OJ1Qze-9k6?usp=sharing) to `src/trainer_object_detection/pretrained_models/` and build the docker:
 
 ```bash
