@@ -63,6 +63,7 @@
 
 ## 🎉 NEWS
 
+- [2026.08.26] 📄 Add arXiv link to the paper.
 - [2026.08.03] 💽 Our data and pretrained weights are released!
 - [2026.08.02] 📄 Our paper is accepted at ECCVW.
 - [2026.07.29] 💻 Our code is released!
