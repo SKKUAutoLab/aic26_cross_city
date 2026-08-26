@@ -4,18 +4,15 @@
 </h1>
 
 <p align='center'>
-    <!-- 🏆 Winner of the 10th AI City Challenge Track 6: Cross-City Object Detection -->
+    🏆 Winner of the 10th AI City Challenge Track 6: Cross-City Object Detection
 </p>
 
 
 <!-- MARK: authors -->
 <div align='center'>
-    <a href="https://scholar.google.com/citations?user=xPyle9AAAAAJ&hl">
-        Long Hoang Pham</a> &emsp;
-    <a href="https://scholar.google.com/citations?user=hpPU1ugAAAAJ&hl">
-        Quoc Pham-Nam Ho</a> &emsp;
-    <a href="https://scholar.google.com/citations?user=jxoCog4AAAAJ&hl">
-        Huy-Hung Nguyen</a>
+    <a href="https://scholar.google.com/citations?user=xPyle9AAAAAJ&hl">Long Hoang Pham</a> &emsp;
+    <a href="https://scholar.google.com/citations?user=hpPU1ugAAAAJ&hl">Quoc Pham-Nam Ho</a> &emsp;
+    <a href="https://scholar.google.com/citations?user=jxoCog4AAAAJ&hl">Huy-Hung Nguyen</a>
 </div>
 
 <div align='center'>
@@ -34,8 +31,7 @@
 <div align='center'>
     Duong Khac Vu &emsp;
     Trinh Le Ba Khanh &emsp;
-    <a href="https://scholar.google.com/citations?user=9z0SfKoAAAAJ">
-        Jae Wook Jeon</a>
+    <a href="https://scholar.google.com/citations?user=9z0SfKoAAAAJ">Jae Wook Jeon</a>
 </div>
 
 <!-- affiliation -->
@@ -58,7 +54,7 @@
 
 <div align="center">
   <a href="https://github.com/SKKUAutoLab/aic26_cross_city"><img src="https://img.shields.io/static/v1?label=AIC26&message=Website&color=9a33fc&logo=githubpages" style="height: 25px;"></a>
-  <!-- <a href="https://doi.org/10.1609/aaai.v40i7.37439"><img src="https://img.shields.io/static/v1?label=DOI&message=10.1609/aaai.v40i7.37439&color=green" style="height: 25px;"></a> -->
+  <a href="https://arxiv.org/abs/2608.24154"><img src="https://img.shields.io/static/v1?label=Supplementary&message=arXiv&color=FF0066&logo=arxiv" style="height: 25px;"></a>
   <a href="https://github.com/SKKUAutoLab/aic26_cross_city"><img src="https://img.shields.io/static/v1?label=Code&message=Github&color=6699FF&logo=github" style="height: 25px;"></a>
 </div>
 
