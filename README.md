@@ -70,15 +70,17 @@
 - [2026.07.29] 💻 Our code is released!
 - [2026.07.24] 📄 Our paper is under review.
 
-
 <!-- MARK: Leaderboard -->
 
 ## 📝 Announcement
 
 <div align="center">
     <img src="assets/2026_09_aicity_track6_winner.jpg" style="width:100%; height:auto; display:block; border-radius:6px;">
-    You can find the <a href="https://www.linkedin.com/posts/milestone-systems_ai-city-challenge-track-6-winners-activity-7503029554890924032-JBNE?utm_source=share&utm_medium=member_desktop&rcm=ACoAABurucYBJHXDJ3HWOG-CKlN93wZCKnead8Y">official Linkedin post here</a>.
 </div>
+
+- [NVIDIA AI's Building Robust Visual AI Systems: Winners from the AI City Challenge](https://x.com/NVIDIAAI/status/2097409504728269183)
+- [Milestone Systems' LinkedIn Post](https://www.linkedin.com/posts/milestone-systems_ai-city-challenge-track-6-winners-activity-7503029554890924032-JBNE?utm_source=share&utm_medium=member_desktop&rcm=ACoAABurucYBJHXDJ3HWOG-CKlN93wZCKnead8Y)
+- [10th AI City Challenge Winners Annoucement](https://www.aicitychallenge.org/2026-challenge-winners/)
 
 <!-- MARK: Abstract -->
 
